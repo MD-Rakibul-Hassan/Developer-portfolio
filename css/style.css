@@ -324,3 +324,70 @@ header .header-contents .header-text-contents .buttons .contact-btn {
     padding: 18px 36px;
     color: white;
 }
+/* Footer section  */
+footer .footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding-bottom: 25px;
+
+}
+
+footer .footer-content .footer-left .contact-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+footer .footer-content .footer-left .icons img {
+    margin-left: 20px;
+}
+
+footer .footer-content .footer-left > p {
+    margin-bottom: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+footer .footer-content .footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-content .footer-right  {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+footer .footer-content .footer-right .message-title {
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .footer-content .footer-right form input {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+footer .footer-content .footer-right form textarea {
+    width: 100%;
+    height: 175px;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+footer .footer-content .footer-right form button {
+    margin-top: 25px;
+    border: 0;
+    padding: 18px 36px;
+    color: white;
+}
