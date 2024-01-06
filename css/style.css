@@ -1,0 +1,104 @@
+/* Global Styles  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Css Variables for common elements */
+:root {
+    --common-color : #FD6E0A;
+}
+/* Common Styles for button  */
+.btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 20px;
+
+}
+/* Common Styles for Section titles  */
+.section-heading {
+    color:#181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Common Styles for max-width  */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*Style for  Header Section   */
+header {
+    height: 837px;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    /* background-size: cover; */
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header nav ul li button {
+    color: var(--White-Color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 36px;
+}
+
+header nav .logo {
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header nav .logo .logo-text {
+    color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header .header-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-contents .header-img-contents img {
+    margin: 110px 0 0 60px;
+}
