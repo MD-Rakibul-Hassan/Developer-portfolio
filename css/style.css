@@ -252,3 +252,75 @@ header .header-contents .header-text-contents .buttons .contact-btn {
     font-weight: 400;
     line-height: 28px; /* 175% */
 }
+/* Resume section  */
+.resume {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.main .resume .resume-content {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 45px 0 0 0;
+
+}
+
+.main .resume .resume-content .resume-title {
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px;
+}
+
+.main .resume .resume-content .education-exprence-title {
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main .resume .resume-content .education-exprence-decription {
+    color:#757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main .resume .resume-content .education-exprence-content {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.main .resume .resume-content .education,hr {
+    margin: 30px;
+}
+
+.main .resume .resume-content .exprence,hr {
+    margin: 30px;
+}
+
+.main .resume .resume-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .resume .resume-button .btn {
+    border: 0;
+    padding: 18px 36px;
+    color: white;
+}
