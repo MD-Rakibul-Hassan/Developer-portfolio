@@ -157,11 +157,10 @@ header .header-contents .header-text-contents .buttons .contact-btn {
 .main {
     margin-top: 100px;
 }
-
+/* About me section  */
 .main .about-section{
     text-align: center;
     width: 1140px;
-    height: 550px;
     width: 100%;
     background: #FFF8F3;
     padding: 20px;
@@ -204,7 +203,52 @@ header .header-contents .header-text-contents .buttons .contact-btn {
     font-weight: 700;
     line-height: 30px;
 }
-
+/* What i do section  */
 .main .what-i-do {
     margin-top: 100px;
+}
+
+.main .what-i-do .what-i-do-dic {
+    margin: 0 auto;
+    color:#757575;
+    width: 900px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.main .what-i-do .skils {
+    padding-top: 50px;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main .what-i-do .skils .skill {
+    width: 100%;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.main .what-i-do .skils .skill .skill-title {
+    margin-top: 20px;
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main .what-i-do .skils .skill > p {
+    margin-top: 10px;
+    color:#757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
 }
